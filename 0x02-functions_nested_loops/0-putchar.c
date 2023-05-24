@@ -1,8 +1,18 @@
-#include <unistd.h>
-
-int main() {
-    const char my_m = "_putchar\n";
-    ssize_t bytes_written = write(1, my_m, sizeof(my_m) - 1);
-    
-    return (bytes_written == sizeof(my_m - 1) ? 0 : 1;
+#include "main.h"
+/**
+ *
+ *
+ **/
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar("\n");
+	return(0);
 }
